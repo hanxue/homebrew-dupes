@@ -12,7 +12,7 @@ class Ncurses < Formula
     sha256 "a73f869e5dc82d43fa05cdb86200a8a7b7e04b4da1902e9cdf77c90a94d678ad" => :yosemite
   end
 
-  keg_only :provided_by_osx
+  keg_only :provided_by_macos
 
   depends_on "pkg-config" => :build
 

@@ -12,7 +12,7 @@ class Openldap < Formula
     sha256 "0fb583888567fedc05b20a06b956b2387d73ef692a3d350a22e46b7362390f51" => :yosemite
   end
 
-  keg_only :provided_by_osx
+  keg_only :provided_by_macos
 
   option "with-sssvlv", "Enable server side sorting and virtual list view"
 

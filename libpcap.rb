@@ -12,7 +12,7 @@ class Libpcap < Formula
     sha256 "e7d313172264c39a22038ac0c6fa67e1ce796406a761511b6a854a4e5a3f05dc" => :yosemite
   end
 
-  keg_only :provided_by_osx
+  keg_only :provided_by_macos
 
   unless OS.mac?
     depends_on "bison" => :build

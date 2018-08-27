@@ -12,7 +12,7 @@ class Libedit < Formula
     sha256 "5fb64cf9e71fe11c38bb6f1c69c3254a93bfa78300601904193e8f746809cbfb" => :yosemite
   end
 
-  keg_only :provided_by_osx
+  keg_only :provided_by_macos
 
   depends_on "homebrew/dupes/ncurses" unless OS.mac?
 

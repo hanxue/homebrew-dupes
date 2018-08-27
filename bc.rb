@@ -12,7 +12,7 @@ class Bc < Formula
     sha256 "30e0bf45f79e742a73c0b1ec4aca944d33b5a46c94e8895a4ad3cb600f7a2735" => :yosemite
   end
 
-  keg_only :provided_by_osx
+  keg_only :provided_by_macos
 
   unless OS.mac?
     depends_on "bison" => :build

@@ -12,7 +12,7 @@ class M4 < Formula
     sha256 "a3d45ad75fabb47348fa84fe3ddf2c0aae917e43a65db4959b803ca298faccd3" => :yosemite
   end
 
-  keg_only :provided_by_osx
+  keg_only :provided_by_macos
 
   def install
     system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"

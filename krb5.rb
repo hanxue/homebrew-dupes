@@ -10,7 +10,7 @@ class Krb5 < Formula
     sha256 "1ca8042ea545878c3cc2bd10354b921bbd50c23eb538888e0603134c20eaf7bb" => :yosemite
   end
 
-  keg_only :provided_by_osx
+  keg_only :provided_by_macos
 
   depends_on "openssl"
   depends_on "bison" unless OS.mac?

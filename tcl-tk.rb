@@ -13,7 +13,7 @@ class TclTk < Formula
     sha256 "dde73a5b17f8dc6acfd974f88605a97e9b50ca12b1af9071825c67c69b33cf7c" => :yosemite
   end
 
-  keg_only :provided_by_osx,
+  keg_only :provided_by_macos,
     "Tk installs some X11 headers and OS X provides an (older) Tcl/Tk."
 
   deprecated_option "enable-threads" => "with-threads"

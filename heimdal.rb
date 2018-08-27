@@ -5,7 +5,7 @@ class Heimdal < Formula
   sha256 "8fe19e0f12ff0d0c2f20a6cf56727deaabd89db9c197288022fb489e103b730d"
   revision 1
 
-  keg_only :provided_by_osx
+  keg_only :provided_by_macos
 
   depends_on :x11 => :recommended
 

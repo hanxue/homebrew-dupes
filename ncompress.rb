@@ -12,7 +12,7 @@ class Ncompress < Formula
     sha256 "9d0989b5010fb3399f6ef7656c39ddc2b434c07fa25e730500443206760d6c70" => :yosemite
   end
 
-  keg_only :provided_by_osx
+  keg_only :provided_by_macos
 
   def install
     system "make", "install", "BINDIR=#{bin}", "MANDIR=#{man1}"

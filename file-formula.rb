@@ -14,7 +14,7 @@ class FileFormula < Formula
     sha256 "c82f9020e4d07b98ac239d1b452192a94c8a29b9088bdba0d9cb66edc15ef845" => :yosemite
   end
 
-  keg_only :provided_by_osx
+  keg_only :provided_by_macos
 
   depends_on "libmagic"
 

@@ -11,12 +11,12 @@ class Lapack < Formula
     sha256 "5f7584fd063174c84e0bd2374d1d021e1efd64a28b2b03d3ddb8b4a6ad14c4e8" => :yosemite
   end
 
-  keg_only :provided_by_osx
+  keg_only :provided_by_macos
 
   option "with-doxygen", "Build man pages with Doxygen"
 
   depends_on "cmake" => :build
-  depends_on :fortran
+  depends_on "gfortran" => :recommended
   depends_on "gcc"
   depends_on "doxygen" => [:build, :optional, "with-llvm"]
 

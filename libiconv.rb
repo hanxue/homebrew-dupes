@@ -12,7 +12,7 @@ class Libiconv < Formula
     sha256 "c3fd281560ecc86d2453d4916a67267207dff4c19baeb42ce2db8cfbfb52eadb" => :yosemite
   end
 
-  keg_only :provided_by_osx
+  keg_only :provided_by_macos
 
   patch do
     url "https://raw.githubusercontent.com/Homebrew/patches/9be2793af/libiconv/patch-utf8mac.diff"

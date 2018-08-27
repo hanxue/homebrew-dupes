@@ -11,7 +11,7 @@ class Srm < Formula
     sha256 "800ceccc9adecec1ceabfbc6c3d2aaa1da682db174ab02ae75cbcbba4cee1270" => :mavericks
   end
 
-  keg_only :provided_by_osx
+  keg_only :provided_by_macos
 
   def install
     system "./configure", "--disable-debug",

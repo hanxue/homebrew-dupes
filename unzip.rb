@@ -13,7 +13,7 @@ class Unzip < Formula
     sha256 "d012cc29eb7447dfec5b1807f5b81aa622497d09bafd34a8329cddae91fecbee" => :mavericks
   end
 
-  keg_only :provided_by_osx
+  keg_only :provided_by_macos
 
   depends_on "bzip2" unless OS.mac?
 
